@@ -91,11 +91,11 @@ function initBotConversation() {
         domain: domain
     });
     const styleOptions = {
-        botAvatarImage: 'https://docs.microsoft.com/en-us/azure/bot-service/v4sdk/media/logo_bot.svg?view=azure-bot-service-4.0',
+        botAvatarImage: '/assets/medichat_logomark_white.svg',
         // botAvatarInitials: '',
-        // userAvatarImage: '',
+        // userAvatarImage: '/assets/medichat_logomark_white.svg',
         hideSendBox: false, /* set to true to hide the send box from the view */
-        botAvatarInitials: 'Bot',
+        botAvatarInitials: '',
         userAvatarInitials: 'You',
         backgroundColor: '#F8F8F8'
     };
