@@ -20,3 +20,4 @@ RUN rm ./Web.config
 
 EXPOSE 8080
 CMD [ "npm", "start" ]
+

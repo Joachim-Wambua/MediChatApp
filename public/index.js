@@ -159,7 +159,3 @@ function startChat(user, webchatOptions) {
     const botContainer = document.getElementById('webchat');
     window.WebChat.renderWebChat(webchatOptions, botContainer);
 }
-
-botConnection.activity$.filter(
-    activity => activity.type === "event" && activity.name === "shareLocation"
-).subscribe(activity => getUserLocation(activity.value));
